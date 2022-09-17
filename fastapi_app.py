@@ -15,7 +15,7 @@ async def query(statename):
     """Execute query from covid-19 cases dataset to search covid-19 cases data in US from 2020-1-21 to 2022-5-23!"""
 
     result = filter_state(statename)
-    string = "Latest Result for {} is: \n {}".format(statename,result)
+    string = "Latest Result for {} is:  {}".format(statename,result.to_json())
     return {string}
 
 
