@@ -1,0 +1,5 @@
+ipython
+pandas
+click
+uvicorn
+fastapi
